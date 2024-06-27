@@ -23,7 +23,7 @@ outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
 
 # Define o destinatário do email
-mail.To = 'gleidson.testes1@outlook.com'
+mail.To = 'email@outlook.com'
 
 # Define o assunto do email
 mail.Subject = 'Relatorio de Vendas por Loja'
